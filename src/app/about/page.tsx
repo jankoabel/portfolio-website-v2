@@ -15,10 +15,10 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    I am Abel a <span>Website Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
+                    Hi! My name is Website Developer. I am a your expertise, and I am
                     very passionate and dedicated to my work. With 1 years
                     experience as a your expertise, I have acquired the skills and
                     knowledge necessary to make your project a success. I enjoy
@@ -32,27 +32,27 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.urfolio.vercel.app</span>
+                        Website : <span>www.abeljanko.vercel.app</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>jankoabel2022@gmail.com</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>SSC</span>
+                        Degree : <span>CS</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+421 949 767 931</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
+                        City : <span>Slovakia</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">

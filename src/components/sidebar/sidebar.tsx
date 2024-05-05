@@ -24,7 +24,7 @@ const Sidebar = () => {
       <div className="aside-inner">
         <div className="logo">
           <Link href="/" onClick={handleClose}>
-            Logo
+           Abel
           </Link>
         </div>
         <ul className="nav">
@@ -74,7 +74,7 @@ const Sidebar = () => {
         <div className="copyright">
           Created with ❤️ By{" "}
           <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            Al Siam
+            Abel Janko.
           </a>
         </div>
       </div>

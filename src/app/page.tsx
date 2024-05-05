@@ -7,12 +7,12 @@ export default async function Home() {
         <div className="container">
           <div className="intro">
             <img
-              src="/imgs/alsiam.png"
+              src="/imgs/abela.jpg"
               alt="Al Siam Profile"
               className="shadow-dark"
             />
-            <h1>Your Name</h1>
-            <p>Your expertise</p>
+            <h1>Abel Janko</h1>
+            <p>Website Developer</p>
             <div className="social-links">
               <a href="https://twitter.com/" target="_blank">
                 <i className="fa fa-twitter" />
