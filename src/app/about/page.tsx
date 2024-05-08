@@ -146,14 +146,12 @@ const About: NextPage = () => {
                           </h4>
                           <p className="timeline-text">
                             As a student in the Computer Science program at the
-                            Slovak Technical University, I'm actively acquiring
+                            Slovak Technical University, I&apos;m actively acquiring
                             software engineering principles through rigorous
                             coursework and practical projects.
                           </p>
                         </div>
-
                         {/* Timeline Item end */}
-
                         {/* Timeline Item end */}
                       </div>
                     </div>
@@ -191,7 +189,6 @@ const About: NextPage = () => {
                           </p>
                         </div>
                         {/* Timeline Item end */}
-
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
