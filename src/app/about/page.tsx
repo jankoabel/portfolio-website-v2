@@ -18,12 +18,11 @@ const About: NextPage = () => {
                     I am Abel a <span>Website Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Website Developer. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                    Hi! My name is Abel Janko. I am very passionate and
+                    dedicated to my work. With 1 years experience as a your
+                    expertise, I have acquired the skills and knowledge
+                    necessary to make your project a success. I enjoy every step
+                    of the design process, from discussion and collaboration.
                   </p>
                 </div>
               </div>
@@ -32,7 +31,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.abeljanko.vercel.app</span>
+                        Website : <span>https://janko-abel.vercel.app</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -42,7 +41,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>CS</span>
+                        Degree : <span>CS Undergraduate</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -52,7 +51,8 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Slovakia</span>
+                        City :{" "}
+                        <span>Staré Grunty 51, Bratislava. Slovakia</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -71,7 +71,7 @@ const About: NextPage = () => {
                         Download CV
                       </a>
                       <a
-                        href="#contact"
+                        href="/contact"
                         data-section-index={0}
                         className="btn hire-me"
                       >
@@ -83,31 +83,31 @@ const About: NextPage = () => {
                 <div className="skills padd-15">
                   <div className="row">
                     <div className="skill-item padd-15">
-                      <h5>Html5</h5>
+                      <h5>.NET</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
+                        <div className="skill-percent">95%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Css3</h5>
+                      <h5>React</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
+                        <div className="skill-percent">95%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
+                      <h5>Angular</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
+                        <div className="skill-percent">90%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
+                      <h5>Node js</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
+                        <div className="skill-percent">95%</div>
                       </div>
                     </div>
                   </div>
@@ -123,7 +123,7 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2021 to Present
                           </h6>
                           <h4 className="timeline-title">
                             Self Taught (Programming)
@@ -139,33 +139,21 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2023 to Present
                           </h6>
                           <h4 className="timeline-title">
-                            Diploma in Civil Engineering
+                            Bachelor's Degree in Computer Science
                           </h4>
                           <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
+                            As a student in the Computer Science program at the
+                            Slovak Technical University, I'm actively acquiring
+                            software engineering principles through rigorous
+                            coursework and practical projects.
                           </p>
                         </div>
+
                         {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
-                          </h6>
-                          <h4 className="timeline-title">
-                            Secondary School Certificate
-                          </h4>
-                          <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
-                          </p>
-                        </div>
+
                         {/* Timeline Item end */}
                       </div>
                     </div>
@@ -182,38 +170,51 @@ const About: NextPage = () => {
                           <h6 className="timeline-date">
                             <i className="fa fa-calendar" /> 2019 to Present
                           </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
+                          <h4 className="timeline-title">
+                            Junior .NET core and Umbraco Developer
+                          </h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
+                            Addis Software PLC, based in Addis Ababa, Ethiopia,I
+                            specialized in website and application development
+                            using .NET Core and Umbraco technologies. With .NET
+                            Core,I focused on backend development, harnessing
+                            its powerful features to build robust project
+                            foundations. 09/2021 – 08/2022 Addis Ababa, Ethiopia
+                            In Umbraco,I utilized its user-friendly content
+                            management system to enable clients to manage their
+                            content effortlessly. My responsibilities included
+                            implementing features such as user authentication,
+                            data management, and dynamic content rendering using
+                            these technologies. This approach ensured the
+                            delivery of efficient, scalable, and
+                            easy-to-maintain solutions to our clients.
                           </p>
                         </div>
                         {/* Timeline Item end */}
+
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 04/2023 – Present
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">
+                            Junior MERN Stack Developer
+                          </h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
+                            At Upwork, I have been involved in the development
+                            and maintenance of MERN stack web applications,
+                            ensuring functionality and scalability. I
+                            collaborated with cross-functional teams to
+                            translate requirements into software solutions,
+                            bringing them to life with technologies like
+                            JavaScript, React, Node.js, and MongoDB.
+                            Additionally, I implemented RESTful APIs and
+                            integrated third-party services to enhance
+                            application functionality. Ensuring high-quality
+                            deliverables, I conducted thorough testing,
+                            debugging, and implemented security measures to
+                            safeguard the applications.
                           </p>
                         </div>
                         {/* Timeline Item end */}
