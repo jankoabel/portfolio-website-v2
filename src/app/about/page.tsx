@@ -146,7 +146,7 @@ const About: NextPage = () => {
                           </h4>
                           <p className="timeline-text">
                             As a student in the Computer Science program at the
-                            Slovak Technical University, I&apos;m actively acquiring
+                            Slovak Technical University, Im actively acquiring
                             software engineering principles through rigorous
                             coursework and practical projects.
                           </p>
