@@ -142,11 +142,11 @@ const About: NextPage = () => {
                             <i className="fa fa-calendar" /> 2023 to Present
                           </h6>
                           <h4 className="timeline-title">
-                            Bachelor's Degree in Computer Science
+                            Bachelor Degree in Computer Science
                           </h4>
                           <p className="timeline-text">
                             As a student in the Computer Science program at the
-                            Slovak Technical University, Im actively acquiring
+                            Slovak Technical University, I'm actively acquiring
                             software engineering principles through rigorous
                             coursework and practical projects.
                           </p>
