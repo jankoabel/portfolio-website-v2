@@ -5,7 +5,7 @@ const Portfolio: NextPage = () => {
   const portfolioItems = [
     {
       id: 1,
-      image: "https://via.placeholder.com/400", // Placeholder image URL
+      image: "/imgs/portfolio/ecommerce.PNG", // Placeholder image URL
       title: "Landing Page for Ecommerce Website",
       description: "A beautiful user interface(UI) for an Ecommerce Website.",
       techStacks: ["React", "MUI", "antd"],
@@ -14,7 +14,7 @@ const Portfolio: NextPage = () => {
     },
     {
       id: 2,
-      image: "https://via.placeholder.com/400", // Placeholder image URL
+      image: "/imgs/portfolio/dictionary.PNG", // Placeholder image URL
       title: "English Dictionary",
       description: "A Website where users can search and get words and get the meaning, synonym, antonym, pronunciation and even images for that word.",
       techStacks: ["React", "tailwindcss", "react icons", "RapidApi"],
@@ -23,7 +23,7 @@ const Portfolio: NextPage = () => {
     },
     {
       id: 3,
-      image: "https://via.placeholder.com/400", // Placeholder image URL
+      image: "/imgs/portfolio/education.PNG", // Placeholder image URL
       title: "Landing Page for Educational Website",
       description: "A beautiful user interface(UI) for Educational Website.",
       techStacks: ["HTML", "CSS", "JS"],
@@ -32,7 +32,7 @@ const Portfolio: NextPage = () => {
     },
     {
       id: 4,
-      image: "https://via.placeholder.com/400", // Placeholder image URL
+      image: "/imgs/portfolio/tours.PNG", // Placeholder image URL
       title: "Tour and Travel Website",
       description: "Add description.",
       techStacks: ["React", "react icons", "antd", "axios", "react-helmet"],
@@ -41,8 +41,8 @@ const Portfolio: NextPage = () => {
     },
     {
       id: 5,
-      image: "https://via.placeholder.com/400", // Placeholder image URL
-      title: "School Management System with ASP.NET Core 7 MVC",
+      image: "https://media.licdn.com/dms/image/C4D33AQEr351RRfbS3w/productpage-image_1128_635/0/1628572482298/oreference_school_management_system_image?e=2147483647&v=beta&t=_te239RqrMa3R002CGiEg6tRFxVyjEfZ9FXSkIlybig", // Placeholder image URL
+      title: "The School Management System is a comprehensive web application developed using ASP.NET Core 7 MVC. It utilizes Entity Framework Core for database management and SQL Server for data storage.",
       description: "Add short desc.",
       techStacks: ["ASP.NET Core 7 MVC", "Entity Framework Core", "SQL Server", "Bootstrap", "jQuery", "AutoMapper"],
       githubLink: "https://github.com/jankoabel/school-management-system",
@@ -50,9 +50,9 @@ const Portfolio: NextPage = () => {
     },
     {
       id: 6,
-      image: "https://via.placeholder.com/400", // Placeholder image URL
+      image: "/imgs/portfolio/blog.PNG", // Placeholder image URL
       title: "FineBlog",
-      description: "Add short desc.",
+      description: "FineBlog is a web application built using .NET Core MVC and SQL Server. It provides a platform for users to create and manage their own blogs.",
       techStacks: [".Net Core MVC", "SQL SERVER"],
       githubLink: "https://github.com/jankoabel/blog",
       demoLink: "", // No demo link provided
