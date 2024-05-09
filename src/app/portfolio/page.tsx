@@ -42,8 +42,8 @@ const Portfolio: NextPage = () => {
     {
       id: 5,
       image: "https://media.licdn.com/dms/image/C4D33AQEr351RRfbS3w/productpage-image_1128_635/0/1628572482298/oreference_school_management_system_image?e=2147483647&v=beta&t=_te239RqrMa3R002CGiEg6tRFxVyjEfZ9FXSkIlybig", // Placeholder image URL
-      title: "The School Management System is a comprehensive web application developed using ASP.NET Core 7 MVC. It utilizes Entity Framework Core for database management and SQL Server for data storage.",
-      description: "Add short desc.",
+      title: "School Management System with ASP.NET Core 7 MVC",
+      description: "The School Management System is a comprehensive web application developed using ASP.NET Core 7 MVC. It utilizes Entity Framework Core for database management and SQL Server for data storage.",
       techStacks: ["ASP.NET Core 7 MVC", "Entity Framework Core", "SQL Server", "Bootstrap", "jQuery", "AutoMapper"],
       githubLink: "https://github.com/jankoabel/school-management-system",
       demoLink: "", // No demo link provided
