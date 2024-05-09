@@ -34,7 +34,7 @@ const Portfolio: NextPage = () => {
       id: 4,
       image: "/imgs/portfolio/tours.PNG", // Placeholder image URL
       title: "Tour and Travel Website",
-      description: "Add description.",
+      description: "The Tour and Travel Website is a dynamic online platform built with React, utilizing modern web technologies such as react-icons, antd, axios, and react-helmet.",
       techStacks: ["React", "react icons", "antd", "axios", "react-helmet"],
       githubLink: "https://github.com/jankoabel/enat_ethiopia_tours",
       demoLink: "https://enatethiopiatours.com",
