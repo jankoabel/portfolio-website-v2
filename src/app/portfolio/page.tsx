@@ -1,125 +1,102 @@
-import type { NextPage } from "next";
+import { NextPage } from "next";
+import { FaSearch, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Portfolio: NextPage = () => {
+  const portfolioItems = [
+    {
+      id: 1,
+      image: "https://via.placeholder.com/400", // Placeholder image URL
+      title: "Landing Page for Ecommerce Website",
+      description: "A beautiful user interface(UI) for an Ecommerce Website.",
+      techStacks: ["React", "MUI", "antd"],
+      githubLink: "https://github.com/jankoabel/ecommerce_website_landing_page",
+      demoLink: "https://best-ecommerce-website.vercel.app",
+    },
+    {
+      id: 2,
+      image: "https://via.placeholder.com/400", // Placeholder image URL
+      title: "English Dictionary",
+      description: "A Website where users can search and get words and get the meaning, synonym, antonym, pronunciation and even images for that word.",
+      techStacks: ["React", "tailwindcss", "react icons", "RapidApi"],
+      githubLink: "https://github.com/jankoabel/english-dictionary",
+      demoLink: "https://english-dictionary-chi.vercel.app",
+    },
+    {
+      id: 3,
+      image: "https://via.placeholder.com/400", // Placeholder image URL
+      title: "Landing Page for Educational Website",
+      description: "A beautiful user interface(UI) for Educational Website.",
+      techStacks: ["HTML", "CSS", "JS"],
+      githubLink: "", // No GitHub link provided
+      demoLink: "https://educationallandingpage.netlify.app",
+    },
+    {
+      id: 4,
+      image: "https://via.placeholder.com/400", // Placeholder image URL
+      title: "Tour and Travel Website",
+      description: "Add description.",
+      techStacks: ["React", "react icons", "antd", "axios", "react-helmet"],
+      githubLink: "https://github.com/jankoabel/enat_ethiopia_tours",
+      demoLink: "https://enatethiopiatours.com",
+    },
+    {
+      id: 5,
+      image: "https://via.placeholder.com/400", // Placeholder image URL
+      title: "School Management System with ASP.NET Core 7 MVC",
+      description: "Add short desc.",
+      techStacks: ["ASP.NET Core 7 MVC", "Entity Framework Core", "SQL Server", "Bootstrap", "jQuery", "AutoMapper"],
+      githubLink: "https://github.com/jankoabel/school-management-system",
+      demoLink: "", // No demo link provided
+    },
+    {
+      id: 6,
+      image: "https://via.placeholder.com/400", // Placeholder image URL
+      title: "FineBlog",
+      description: "Add short desc.",
+      techStacks: [".Net Core MVC", "SQL SERVER"],
+      githubLink: "https://github.com/jankoabel/blog",
+      demoLink: "", // No demo link provided
+    },
+  ];
+
   return (
-    <div>
+    <div className="bg-gray-100 dark:bg-gray-800">
       <section className="portfolio section" id="portfolio">
-        <div className="container">
-          <div className="row">
-            <div className="section-title padd-15">
-              <h2>Portfolio</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="portfolio-filter padd-15">
-              <button type="button" className="active" data-filter="all">
-                All
-              </button>
-              <button type="button" data-filter="graphics-design">
-                Graphics Design
-              </button>
-              <button type="button" data-filter="web-design">
-                Web Design
-              </button>
-              <button type="button" data-filter="wordpress">
-                Wordpress
-              </button>
-            </div>
-          </div>
-          <div className="row">
-            {/* Portfolio Item */}
-            <div className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/1.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Web Design</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {portfolioItems.map((item) => (
+              <div key={item.id} className="rounded overflow-hidden shadow-lg bg-white dark:bg-gray-700">
+                <div className="relative">
+                  <img className="w-full" src={item.image} alt={item.title} />
+                  <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300">
+                    <FaSearch className="text-white text-4xl" />
                   </div>
                 </div>
-              </div>
-            </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <div className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/2.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Web Design</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">{item.title}</div>
+                  <p className="text-gray-700 dark:text-gray-200 text-base">{item.description}</p>
+                  <div className="mt-4">
+                    {item.techStacks.map((tech, index) => (
+                      <span key={index} className="inline-block bg-gray-200 dark:bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-200 mr-2 mb-2">
+                        {tech}
+                      </span>
+                    ))}
                   </div>
                 </div>
-              </div>
-            </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <div className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/3.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Web Design</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
+                <div className="px-6 py-4">
+                  {item.githubLink && (
+                    <a href={item.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-400 hover:text-blue-700 mr-3">
+                      <FaGithub className="inline-block mr-1" /> GitHub
+                    </a>
+                  )}
+                  {item.demoLink && (
+                    <a href={item.demoLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-400 hover:text-blue-700">
+                      <FaExternalLinkAlt className="inline-block mr-1" /> Demo
+                    </a>
+                  )}
                 </div>
               </div>
-            </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <div
-              className="portfolio-item padd-15"
-              data-category="graphics-design"
-            >
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/4.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Banner Design</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <div className="portfolio-item padd-15" data-category="wordpress">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/5.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Wordpress</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Portfolio Item End*/}
-            {/* Portfolio Item */}
-            <div className="portfolio-item padd-15" data-category="web-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/6.jpg" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <h4>Web Design</h4>
-                  <div className="icon">
-                    <i className="fa fa-search" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Portfolio Item End*/}
+            ))}
           </div>
         </div>
       </section>
