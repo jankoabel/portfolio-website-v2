@@ -19,8 +19,7 @@ const About: NextPage = () => {
                   </h2>
                   <p>
                     Hi! My name is Abel Janko. I am very passionate and
-                    dedicated to my work. With 1 years experience as a your
-                    expertise, I have acquired the skills and knowledge
+                    dedicated to my work. With 2 years experience as website developer, I have acquired the skills and knowledge
                     necessary to make your project a success. I enjoy every step
                     of the design process, from discussion and collaboration.
                   </p>
