@@ -15,11 +15,11 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Abel a <span>Website Developer</span>
+                    I am Abrham a <span>Website Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Abel Janko. I am very passionate and
-                    dedicated to my work. With 2 years experience as website developer, I have acquired the skills and knowledge
+                    Hi! My name is Abrham Wube. I am very passionate and
+                    dedicated to my work. With 5 years experience as website developer, I have acquired the skills and knowledge
                     necessary to make your project a success. I enjoy every step
                     of the design process, from discussion and collaboration.
                   </p>
