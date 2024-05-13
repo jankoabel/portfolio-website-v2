@@ -11,7 +11,7 @@ export default async function Home() {
               alt="Abel Profile"
               className="shadow-dark"
             />
-            <h1>Abrham Wube</h1>
+            <h1>Abel  Janko</h1>
             <p>Website Developer</p>
             <div className="social-links">
               <a href="https://twitter.com/" target="_blank">

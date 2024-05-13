@@ -15,11 +15,11 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Abrham a <span>Website Developer</span>
+                    I am Abel a <span>Website Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Abrham Wube. I am very passionate and
-                    dedicated to my work. With 5 years experience as website developer, I have acquired the skills and knowledge
+                    Hi! My name is Abel. I am very passionate and
+                    dedicated to my work. With 2 years experience as website developer, I have acquired the skills and knowledge
                     necessary to make your project a success. I enjoy every step
                     of the design process, from discussion and collaboration.
                   </p>
@@ -165,26 +165,15 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2022 to 2023
                           </h6>
                           <h4 className="timeline-title">
                             Junior .NET core and Umbraco Developer
                           </h4>
                           <p className="timeline-text">
-                            Addis Software PLC, based in Addis Ababa, Ethiopia,I
+                          Tria Print Trading LLC,I
                             specialized in website and application development
-                            using .NET Core and Umbraco technologies. With .NET
-                            Core,I focused on backend development, harnessing
-                            its powerful features to build robust project
-                            foundations. 09/2021 – 08/2022 Addis Ababa, Ethiopia
-                            In Umbraco,I utilized its user-friendly content
-                            management system to enable clients to manage their
-                            content effortlessly. My responsibilities included
-                            implementing features such as user authentication,
-                            data management, and dynamic content rendering using
-                            these technologies. This approach ensured the
-                            delivery of efficient, scalable, and
-                            easy-to-maintain solutions to our clients.
+                            using .NET Core and Umbraco technologies. 
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -200,17 +189,7 @@ const About: NextPage = () => {
                           <p className="timeline-text">
                             At Upwork, I have been involved in the development
                             and maintenance of MERN stack web applications,
-                            ensuring functionality and scalability. I
-                            collaborated with cross-functional teams to
-                            translate requirements into software solutions,
-                            bringing them to life with technologies like
-                            JavaScript, React, Node.js, and MongoDB.
-                            Additionally, I implemented RESTful APIs and
-                            integrated third-party services to enhance
-                            application functionality. Ensuring high-quality
-                            deliverables, I conducted thorough testing,
-                            debugging, and implemented security measures to
-                            safeguard the applications.
+                            ensuring functionality and scalability. 
                           </p>
                         </div>
                         {/* Timeline Item end */}
