@@ -18,10 +18,11 @@ const About: NextPage = () => {
                     I am Abel a <span>Website Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Abel. I am very passionate and
-                    dedicated to my work. With 2 years experience as website developer, I have acquired the skills and knowledge
-                    necessary to make your project a success. I enjoy every step
-                    of the design process, from discussion and collaboration.
+                    Hi! My name is Abel. I am very passionate and dedicated to
+                    my work. With 3 years experience as website developer, I
+                    have acquired the skills and knowledge necessary to make
+                    your project a success. I enjoy every step of the design
+                    process, from discussion and collaboration.
                   </p>
                 </div>
               </div>
@@ -165,15 +166,15 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2022 to 2023
+                            <i className="fa fa-calendar" /> 04/2023 – Present
                           </h6>
                           <h4 className="timeline-title">
-                            Junior .NET core and Umbraco Developer
+                          Mid-Level MERN Stack Developer
                           </h4>
                           <p className="timeline-text">
-                          Tria Print Trading LLC,I
-                            specialized in website and application development
-                            using .NET Core and Umbraco technologies. 
+                            At Upwork, I have been involved in the development
+                            and maintenance of MERN stack web applications,
+                            ensuring functionality and scalability.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -181,15 +182,39 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 04/2023 – Present
+                            <i className="fa fa-calendar" /> 05/2023 to 04/2024
+                          </h6>
+                          <h4 className="timeline-title">
+                            Mid-Level .NET core and Umbraco Developer.
+                          </h4>
+                          <p className="timeline-text">
+                            At Seerlinq, I specialized in website and
+                            application development using .NET Core and Umbraco
+                            technologies.With .NET Core, I focused on backend
+                            development, harnessing its powerful features to
+                            build robust project foundations.
+                          </p>
+                        </div>
+                        {/* Timeline Item end */}
+                        {/* Timeline Item */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 12/2022 – 04/2023
                           </h6>
                           <h4 className="timeline-title">
                             Junior MERN Stack Developer
                           </h4>
                           <p className="timeline-text">
-                            At Upwork, I have been involved in the development
-                            and maintenance of MERN stack web applications,
-                            ensuring functionality and scalability. 
+                             I Contributed to MERN Stack projects at Tria Print
+                            Trading LLC, actively participating in the
+                            development, debugging, and testing of software
+                            applications. Collaborated closely with senior
+                            developers to write code, troubleshoot issues, and
+                            assist in project documentation.Gained valuable
+                            experience and enhanced proficiency in MERN Stack
+                            technologies while demonstrating adaptability and
+                            teamwork in a professional setting.
                           </p>
                         </div>
                         {/* Timeline Item end */}

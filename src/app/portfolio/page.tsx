@@ -30,17 +30,17 @@ const Portfolio: NextPage = () => {
       githubLink: "", // No GitHub link provided
       demoLink: "https://educationallandingpage.netlify.app",
     },
+    // {
+    //   id: 4,
+    //   image: "/imgs/portfolio/tours.PNG", // Placeholder image URL
+    //   title: "Tour and Travel Website",
+    //   description: "The Tour and Travel Website is a dynamic online platform built with React, utilizing modern web technologies such as react-icons, antd, axios, and react-helmet.",
+    //   techStacks: ["React", "react icons", "antd", "axios", "react-helmet"],
+    //   githubLink: "https://github.com/jankoabel/enat_ethiopia_tours",
+    //   demoLink: "https://enatethiopiatours.com",
+    // },
     {
       id: 4,
-      image: "/imgs/portfolio/tours.PNG", // Placeholder image URL
-      title: "Tour and Travel Website",
-      description: "The Tour and Travel Website is a dynamic online platform built with React, utilizing modern web technologies such as react-icons, antd, axios, and react-helmet.",
-      techStacks: ["React", "react icons", "antd", "axios", "react-helmet"],
-      githubLink: "https://github.com/jankoabel/enat_ethiopia_tours",
-      demoLink: "https://enatethiopiatours.com",
-    },
-    {
-      id: 5,
       image: "https://media.licdn.com/dms/image/C4D33AQEr351RRfbS3w/productpage-image_1128_635/0/1628572482298/oreference_school_management_system_image?e=2147483647&v=beta&t=_te239RqrMa3R002CGiEg6tRFxVyjEfZ9FXSkIlybig", // Placeholder image URL
       title: "School Management System with ASP.NET Core 7 MVC",
       description: "The School Management System is a comprehensive web application developed using ASP.NET Core 7 MVC. It utilizes Entity Framework Core for database management and SQL Server for data storage.",
@@ -49,7 +49,7 @@ const Portfolio: NextPage = () => {
       demoLink: "", // No demo link provided
     },
     {
-      id: 6,
+      id: 5,
       image: "/imgs/portfolio/blog.PNG", // Placeholder image URL
       title: "FineBlog",
       description: "FineBlog is a web application built using .NET Core MVC and SQL Server. It provides a platform for users to create and manage their own blogs.",
