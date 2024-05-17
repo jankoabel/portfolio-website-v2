@@ -31,7 +31,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>https://janko-abel.vercel.app</span>
+                        Website : <span>https://www.jankoabu.com/</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -41,7 +41,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>CS Undergraduate</span>
+                        Degree : <span>Computer Science</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
