@@ -18,9 +18,8 @@ const About: NextPage = () => {
                     I am Abel a <span>Website Developer</span>
                   </h2>
                   <p>
-  Hi! My name is Abel. I am very passionate and dedicated to my work. With 4 years of experience as a Fullstack developer and Machine Learning developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
-</p>
-
+                    Hi! My name is Abel. I am very passionate and dedicated to my work. With 4 years of experience as a Fullstack developer and Machine Learning developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
+                  </p>
                 </div>
               </div>
               <div className="row">
@@ -101,6 +100,22 @@ const About: NextPage = () => {
                       </div>
                     </div>
                     <div className="skill-item padd-15">
+                      <h5>Machine Learning</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "90%" }} />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                      <p className="mt-2">Libraries: TensorFlow, Scikit-learn, Keras</p>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Data Science</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "85%" }} />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                      <p className="mt-2">Libraries: Pandas, NumPy, Matplotlib, Seaborn</p>
+                    </div>
+                    <div className="skill-item padd-15">
                       <h5>Node js</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "100%" }} />
@@ -166,7 +181,7 @@ const About: NextPage = () => {
                             <i className="fa fa-calendar" /> 04/2023 – Present
                           </h6>
                           <h4 className="timeline-title">
-                          Mid-Level MERN Stack Developer
+                            Mid-Level MERN Stack Developer
                           </h4>
                           <p className="timeline-text">
                             At Upwork, I have been involved in the development
@@ -203,7 +218,7 @@ const About: NextPage = () => {
                             Junior MERN Stack Developer
                           </h4>
                           <p className="timeline-text">
-                             I Contributed to MERN Stack projects at Tria Print
+                            I Contributed to MERN Stack projects at Tria Print
                             Trading LLC, actively participating in the
                             development, debugging, and testing of software
                             applications. Collaborated closely with senior
