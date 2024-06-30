@@ -18,12 +18,9 @@ const About: NextPage = () => {
                     I am Abel a <span>Website Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Abel. I am very passionate and dedicated to
-                    my work. With 3 years experience as website developer, I
-                    have acquired the skills and knowledge necessary to make
-                    your project a success. I enjoy every step of the design
-                    process, from discussion and collaboration.
-                  </p>
+  Hi! My name is Abel. I am very passionate and dedicated to my work. With 4 years of experience as a Fullstack developer and Machine Learning developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
+</p>
+
                 </div>
               </div>
               <div className="row">
@@ -85,29 +82,29 @@ const About: NextPage = () => {
                     <div className="skill-item padd-15">
                       <h5>.NET</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "95%" }} />
-                        <div className="skill-percent">95%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>React</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "95%" }} />
+                        <div className="progress-in" style={{ width: "100%" }} />
                         <div className="skill-percent">95%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Angular</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "90%" }} />
-                        <div className="skill-percent">90%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Node js</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "95%" }} />
-                        <div className="skill-percent">95%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                   </div>
