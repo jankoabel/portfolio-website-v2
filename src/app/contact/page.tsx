@@ -1,8 +1,21 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 
 const Contact: NextPage = () => {
   return (
     <>
+      <Head>
+        {/* Google Ads script */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_ADS_ID_HERE"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'YOUR_ADS_ID_HERE');
+          `}
+        </script>
+      </Head>
       <section className="contact section" id="contact">
         <div className="container">
           <div className="row">
@@ -49,6 +62,7 @@ const Contact: NextPage = () => {
                       type="text"
                       className="form-control"
                       placeholder="Name*"
+                      required
                     />
                   </div>
                 </div>
@@ -58,6 +72,7 @@ const Contact: NextPage = () => {
                       type="email"
                       className="form-control"
                       placeholder="Email*"
+                      required
                     />
                   </div>
                 </div>
@@ -69,6 +84,7 @@ const Contact: NextPage = () => {
                       type="text"
                       className="form-control"
                       placeholder="Subject*"
+                      required
                     />
                   </div>
                 </div>
@@ -79,7 +95,7 @@ const Contact: NextPage = () => {
                     <textarea
                       className="form-control"
                       placeholder="Your Message*"
-                      defaultValue={""}
+                      required
                     />
                   </div>
                 </div>
