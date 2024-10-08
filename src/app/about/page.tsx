@@ -1,8 +1,16 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 
 const About: NextPage = () => {
   return (
     <main>
+      <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6686647115372231"
+          crossOrigin="anonymous"
+        ></script>
+      </Head>
       <section className="about section" id="about">
         <div className="container">
           <div className="row">
@@ -222,11 +230,7 @@ const About: NextPage = () => {
                             Trading LLC, actively participating in the
                             development, debugging, and testing of software
                             applications. Collaborated closely with senior
-                            developers to write code, troubleshoot issues, and
-                            assist in project documentation.Gained valuable
-                            experience and enhanced proficiency in MERN Stack
-                            technologies while demonstrating adaptability and
-                            teamwork in a professional setting.
+                            developers to write code, troubleshoot issues, and assist in project documentation. Gained valuable experience and enhanced proficiency in MERN Stack technologies while demonstrating adaptability and teamwork in a professional setting.
                           </p>
                         </div>
                         {/* Timeline Item end */}
