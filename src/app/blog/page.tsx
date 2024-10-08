@@ -1,8 +1,21 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 
 const Blog: NextPage = () => {
   return (
     <>
+      <Head>
+        {/* Google Ads script */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_ADS_ID_HERE"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'YOUR_ADS_ID_HERE');
+          `}
+        </script>
+      </Head>
       <section className="blog section" id="blog">
         <div className="container">
           <div className="row">
@@ -23,7 +36,7 @@ const Blog: NextPage = () => {
                     Mastering Responsive Web Design
                   </h4>
                   <p className="blog-description">
-                    In today digital landscape, responsive web design is not
+                    In today's digital landscape, responsive web design is not
                     just a trend; it is a necessity. Explore the principles and
                     techniques behind creating websites that adapt seamlessly to
                     various devices and screen sizes.
@@ -35,6 +48,7 @@ const Blog: NextPage = () => {
               </div>
             </div>
             {/* Blog Item 1 End */}
+
             {/* Blog Item 2 */}
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
@@ -59,6 +73,7 @@ const Blog: NextPage = () => {
               </div>
             </div>
             {/* Blog Item 2 End */}
+
             {/* Blog Item 3 */}
             <div className="blog-item padd-15">
               <div className="blog-item-inner shadow-dark">
